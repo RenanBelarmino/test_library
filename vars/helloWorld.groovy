@@ -1,5 +1,5 @@
 def call() {
-    sh "echo Hello"
+    sh "echo Hello ${name}. Today is ${day0fWeek}."
 }
 
 
