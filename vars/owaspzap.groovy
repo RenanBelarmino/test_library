@@ -1,5 +1,5 @@
-def call() {
+def call(Map config = [:]) {
         sh """
-          docker run --rm hello_there
+          echo Ola ${config.name}. Hoje é ${config.day0Week}.
         """
 }
